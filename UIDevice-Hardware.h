@@ -74,8 +74,8 @@ typedef enum {
     UIDeviceiPhone5CGSMCDMA,
     UIDeviceiPhone5SGSM,
     UIDeviceiPhone5SGSMCDMA,
-    UIDeviceiPhone6,
     UIDeviceiPhone6PLUS,
+    UIDeviceiPhone6,
     UIDeviceiPhone6S,
     UIDeviceiPhone6SPLUS,
     

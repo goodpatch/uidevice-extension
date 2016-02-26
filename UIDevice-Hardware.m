@@ -62,8 +62,10 @@
  iPhone5,4 ->    iPhone 5C/GSM+CDMA, N49
  iPhone6,1 ->    iPhone 5S/GSM, N51
  iPhone6,2 ->    iPhone 5S/GSM+CDMA, N53
- iPhone7,1 ->    iPhone 6
- iPhone7,2 ->    iPhone 6 Plus
+ iPhone7,1 ->    iPhone 6 Plus
+ iPhone7,2 ->    iPhone 6
+ iPhone8,1 ->    iPhone 6s
+ iPhone8,2 ->    iPhone 6s Plus
 
  iPod1,1   ->    iPod touch 1, N45
  iPod2,1   ->    iPod touch 2, N72
@@ -243,8 +245,8 @@
     if ([platform isEqualToString:@"iPhone5,4"])    return UIDeviceiPhone5CGSMCDMA;
     if ([platform isEqualToString:@"iPhone6,1"])    return UIDeviceiPhone5SGSM;
     if ([platform isEqualToString:@"iPhone6,2"])    return UIDeviceiPhone5SGSMCDMA;
-    if ([platform isEqualToString:@"iPhone7,1"])    return UIDeviceiPhone6;
-    if ([platform isEqualToString:@"iPhone7,2"])    return UIDeviceiPhone6PLUS;
+    if ([platform isEqualToString:@"iPhone7,1"])    return UIDeviceiPhone6PLUS;
+    if ([platform isEqualToString:@"iPhone7,2"])    return UIDeviceiPhone6;
     if ([platform isEqualToString:@"iPhone8,1"])    return UIDeviceiPhone6S;
     if ([platform isEqualToString:@"iPhone8,2"])    return UIDeviceiPhone6SPLUS;
     
