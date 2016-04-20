@@ -249,6 +249,7 @@
     if ([platform isEqualToString:@"iPhone7,2"])    return UIDeviceiPhone6;
     if ([platform isEqualToString:@"iPhone8,1"])    return UIDeviceiPhone6S;
     if ([platform isEqualToString:@"iPhone8,2"])    return UIDeviceiPhone6SPLUS;
+    if ([platform isEqualToString:@"iPhone8,4"])    return UIDeviceiPhoneSE;
     
     // iPod
     if ([platform hasPrefix:@"iPod1"])              return UIDeviceiPod1;
@@ -329,6 +330,7 @@
         case UIDeviceiPhone5SGSMCDMA:       return IPHONE_5S_NAMESTRING;
         case UIDeviceiPhone6:               return IPHONE_6_NAMESTRING;
         case UIDeviceiPhone6PLUS:           return IPHONE_6_PLUS_NAMESTRING;
+        case UIDeviceiPhoneSE:              return IPHONE_SE_NAMESTRING;
         case UIDeviceUnknowniPhone:         return IPHONE_UNKNOWN_NAMESTRING;
 			
         case UIDeviceiPod1:                 return IPOD_1_NAMESTRING;
