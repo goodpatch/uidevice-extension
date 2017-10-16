@@ -262,6 +262,12 @@
     if ([platform isEqualToString:@"iPhone9,3"])    return UIDeviceiPhone7;
     if ([platform isEqualToString:@"iPhone9,2"])    return UIDeviceiPhone7Plus;
     if ([platform isEqualToString:@"iPhone9,4"])    return UIDeviceiPhone7Plus;
+    if ([platform isEqualToString:@"iPhone10,1"])    return UIDeviceiPhone8;
+    if ([platform isEqualToString:@"iPhone10,2"])    return UIDeviceiPhone8Plus;
+    if ([platform isEqualToString:@"iPhone10,3"])    return UIDeviceiPhoneX;
+    if ([platform isEqualToString:@"iPhone10,4"])    return UIDeviceiPhone8; // Global
+    if ([platform isEqualToString:@"iPhone10,5"])    return UIDeviceiPhone8Plus; // Global
+    if ([platform isEqualToString:@"iPhone10,6"])    return UIDeviceiPhoneX; // Global
     
     // iPod
     if ([platform hasPrefix:@"iPod1"])              return UIDeviceiPod1;
@@ -347,6 +353,9 @@
         case UIDeviceiPhoneSE:              return IPHONE_SE_NAMESTRING;
         case UIDeviceiPhone7:               return IPHONE_7_NAMESTRING;
         case UIDeviceiPhone7Plus:           return IPHONE_7_PLUS_NAMESTRING;
+        case UIDeviceiPhone8:               return IPHONE_8_NAMESTRING;
+        case UIDeviceiPhone8Plus:           return IPHONE_8_PLUS_NAMESTRING;
+        case UIDeviceiPhoneX:               return IPHONE_X_NAMESTRING;
         case UIDeviceUnknowniPhone:         return IPHONE_UNKNOWN_NAMESTRING;
             
         case UIDeviceiPod1:                 return IPOD_1_NAMESTRING;
