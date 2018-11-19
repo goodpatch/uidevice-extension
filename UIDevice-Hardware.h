@@ -26,6 +26,10 @@
 #define IPHONE_8_NAMESTRING             @"iPhone 8"
 #define IPHONE_8_PLUS_NAMESTRING        @"iPhone 8 Plus"
 #define IPHONE_X_NAMESTRING             @"iPhone X"
+#define IPHONE_XS_NAMESTRING            @"iPhone XS"
+#define IPHONE_XS_MAX_NAMESTRING        @"iPhone XS Max"
+#define IPHONE_XS_MAX_CHINA_NAMESTRING  @"iPhone XS Max (China)" // China dual-sim
+#define IPHONE_XR_NAMESTRING            @"iPhone XR"
 #define IPHONE_UNKNOWN_NAMESTRING       @"Unknown iPhone"
 
 #define IPOD_1_NAMESTRING               @"iPod touch 1"
@@ -90,7 +94,10 @@ typedef enum {
     UIDeviceiPhone8,
     UIDeviceiPhone8Plus,
     UIDeviceiPhoneX,
-
+    UIDeviceiPhoneXS,
+    UIDeviceiPhoneXSMax,
+    UIDeviceiPhoneXSMaxChina,
+    UIDeviceiPhoneXR,
     
     UIDeviceiPod1,
     UIDeviceiPod2,

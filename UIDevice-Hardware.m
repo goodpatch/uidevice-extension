@@ -268,6 +268,10 @@
     if ([platform isEqualToString:@"iPhone10,4"])    return UIDeviceiPhone8; // Global
     if ([platform isEqualToString:@"iPhone10,5"])    return UIDeviceiPhone8Plus; // Global
     if ([platform isEqualToString:@"iPhone10,6"])    return UIDeviceiPhoneX; // Global
+    if ([platform isEqualToString:@"iPhone11,2"])    return UIDeviceiPhoneXS;
+    if ([platform isEqualToString:@"iPhone11,4"])    return UIDeviceiPhoneXSMax;
+    if ([platform isEqualToString:@"iPhone11,6"])    return UIDeviceiPhoneXSMaxChina; // China dual-sim
+    if ([platform isEqualToString:@"iPhone11,8"])    return UIDeviceiPhoneXR;
     
     // iPod
     if ([platform hasPrefix:@"iPod1"])              return UIDeviceiPod1;
@@ -356,6 +360,10 @@
         case UIDeviceiPhone8:               return IPHONE_8_NAMESTRING;
         case UIDeviceiPhone8Plus:           return IPHONE_8_PLUS_NAMESTRING;
         case UIDeviceiPhoneX:               return IPHONE_X_NAMESTRING;
+        case UIDeviceiPhoneXS:              return IPHONE_XS_NAMESTRING;
+        case UIDeviceiPhoneXSMax:           return IPHONE_XS_MAX_NAMESTRING;
+        case UIDeviceiPhoneXSMaxChina:      return IPHONE_XS_MAX_CHINA_NAMESTRING;
+        case UIDeviceiPhoneXR:              return IPHONE_XR_NAMESTRING;
         case UIDeviceUnknowniPhone:         return IPHONE_UNKNOWN_NAMESTRING;
             
         case UIDeviceiPod1:                 return IPOD_1_NAMESTRING;
